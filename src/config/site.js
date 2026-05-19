@@ -10,104 +10,102 @@ export const siteConfig = {
   // ─────────────────────────────────────────────
   // INFORMACION DEL NEGOCIO
   // ─────────────────────────────────────────────
-  name: "VibeCoding",
-  tagline: "La plantilla perfecta para lanzar tu idea al mundo.",
+  name: "Madeja Dulce",
+  tagline: "Pequeños amigos tejidos con el corazón.",
   description:
-    "Rapido, moderno y listo para personalizar a tu gusto.",
+    "En Madeja Dulce nacen amigurumis únicos: animalitos, personajes o compañeros de lana que abrazan fuerte y se quedan para siempre.",
 
   // ─────────────────────────────────────────────
-  // SECCION HERO (la primera pantalla que ven los visitantes)
+  // SECCION HERO
   // ─────────────────────────────────────────────
   hero: {
-    badge: "Bienvenido a tu nuevo proyecto",
-    title: "Construye algo",
-    titleHighlight: "increible",
+    badge: "♥ TEJIDO A MANO · HECHO CON AMOR",
+    title: "Pequeños amigos ",
+    titleHighlight: "tejidos con el corazón.",
     subtitle:
-      "La plantilla perfecta para lanzar tu idea al mundo. Rapido, moderno y listo para personalizar a tu gusto.",
-    ctaPrimary: "Empezar ahora",
-    ctaSecondary: "Ver mas",
-    // Enlace del boton principal. Puedes poner una URL de Calendly o Google Calendar.
-    // Ejemplo Calendly: "https://calendly.com/tu-usuario/30min"
-    // Ejemplo Google Calendar: "https://calendar.google.com/calendar/appointments/..."
-    ctaPrimaryUrl: "#contacto",
-    ctaSecondaryUrl: "#features",
+      "En Madeja Dulce nacen amigurumis únicos: animalitos, personajes o compañeros de lana que abrazan fuerte y se quedan para siempre.",
+    ctaPrimary: "Ver la galería",
+    ctaSecondary: "Hacer un encargo",
+    ctaPrimaryUrl: "#features",
+    ctaSecondaryUrl: "#contact",
   },
 
   // ─────────────────────────────────────────────
-  // BENEFICIOS / FEATURES (seccion de caracteristicas)
+  // BENEFICIOS / FEATURES
   // ─────────────────────────────────────────────
   features: {
-    heading: "Todo lo que necesitas para lanzar",
-    subheading: "Caracteristicas disenadas para ayudarte a crecer.",
+    heading: "Hilo, paciencia y cariño.",
+    subheading: "Lo que hace especial a cada amigurumi de Madeja Dulce.",
     items: [
       {
         icon: "lightning",
-        title: "Rapido y eficiente",
+        title: "Hechos a mano",
         description:
-          "Optimizado para velocidad. Tu sitio cargara en un instante y tus usuarios lo amaran.",
+          "Cada puntada nace entre mis manos. Sin moldes industriales, sin prisa.",
       },
       {
         icon: "mobile",
-        title: "Diseno responsive",
+        title: "Lana suave y segura",
         description:
-          "Se ve perfecto en cualquier dispositivo: celular, tablet o computadora.",
+          "Uso hilos hipoalergénicos y rellenos abrazables aptos para niños.",
       },
       {
         icon: "settings",
-        title: "Facil de personalizar",
+        title: "Diseños personalizados",
         description:
-          "Cambia colores, textos e imagenes facilmente desde un solo archivo de configuracion.",
+          "¿Una mascota, tu personaje favorito, un regalo único? Lo tejemos juntos.",
       },
     ],
   },
 
   // ─────────────────────────────────────────────
-  // PRECIOS (planes de pago)
+  // PRECIOS
   // ─────────────────────────────────────────────
   pricing: {
-    heading: "Precios simples y transparentes",
+    heading: "Tamaños y precios",
     subheading:
-      "Elige el plan que mejor se adapte a tus necesidades. Sin costos ocultos.",
+      "Referencia inicial. El precio final depende del diseño, tamaño y materiales.",
     plans: [
       {
-        name: "Basico",
-        price: "$0",
-        period: "/mes",
-        description: "Perfecto para empezar",
+        name: "Mini",
+        price: "$8",
+        period: "",
+        description: "Llavero",
         features: [
-          "1 proyecto",
-          "Soporte por email",
-          "Actualizaciones basicas",
+          "Hasta 10 cm",
+          "1 color base + detalles",
+          "Listo en 3 días",
+          "Ideal para regalo",
         ],
-        cta: "Empezar gratis",
+        cta: "Encargar mini",
         highlighted: false,
       },
       {
-        name: "Pro",
-        price: "$29",
-        period: "/mes",
-        description: "Para crecer tu negocio",
+        name: "Cuddle",
+        price: "$25",
+        period: "",
+        description: "Peluche mediano",
         features: [
-          "Proyectos ilimitados",
-          "Soporte prioritario",
-          "Todas las funcionalidades",
-          "Analiticas avanzadas",
+          "15-22 cm de altura",
+          "Lana chenille suave",
+          "Detalles bordados a mano",
+          "Abrazo asegurado",
         ],
-        cta: "Empezar ahora",
+        cta: "Quiero uno",
         highlighted: true,
       },
       {
-        name: "Enterprise",
-        price: "$99",
-        period: "/mes",
-        description: "Para equipos grandes",
+        name: "Custom",
+        price: "Desde $40",
+        period: "",
+        description: "Diseño único",
         features: [
-          "Todo lo de Pro",
-          "Soporte dedicado 24/7",
-          "Integraciones custom",
-          "SLA garantizado",
+          "A medida según tu idea",
+          "Boceto previo a aprobar",
+          "Materiales premium",
+          "Pieza de colección",
         ],
-        cta: "Contactar ventas",
+        cta: "Hablemos",
         highlighted: false,
       },
     ],
@@ -117,33 +115,23 @@ export const siteConfig = {
   // PREGUNTAS FRECUENTES (FAQ)
   // ─────────────────────────────────────────────
   faq: {
-    heading: "Preguntas frecuentes",
-    subheading: "Resolvemos tus dudas mas comunes.",
+    heading: "Tejo lo que me hace feliz.",
+    subheading: "Hola, soy la persona detrás de Madeja Dulce. Empecé tejiendo regalos para mi familia y terminé perdiéndome (felizmente) entre ovillos de colores.\n\nHoy convierto lana en abrazos: animalitos, personajes o diseños hechos a tu medida. Si tienes una idea en mente, cuéntame... Lo tejemos juntos.",
     items: [
       {
-        question: "Como puedo empezar a usar la plantilla?",
+        question: "¿Cuánto tiempo tardas en tejer un amigurumi?",
         answer:
-          "Solo necesitas clonar el repositorio, instalar las dependencias con npm install y ejecutar npm run dev para verla en tu computadora.",
+          "Depende del tamaño y los detalles, pero por lo general entre 3 y 7 días.",
       },
       {
-        question: "Necesito saber programar?",
+        question: "¿Haces envíos?",
         answer:
-          "No necesariamente. Puedes personalizar textos, colores e imagenes sin tocar codigo complejo. Solo edita el archivo src/config/site.js.",
+          "Sí, realizamos envíos a todo el país.",
       },
       {
-        question: "Puedo usar mi propio dominio?",
+        question: "¿Puedo lavar mi amigurumi?",
         answer:
-          "Si. Una vez que despliegues tu sitio en Vercel o cualquier otro hosting, puedes conectar tu dominio personalizado facilmente.",
-      },
-      {
-        question: "Que metodos de pago aceptan?",
-        answer:
-          "Aceptamos tarjetas de credito y debito a traves de nuestra plataforma de pago segura.",
-      },
-      {
-        question: "Ofrecen soporte tecnico?",
-        answer:
-          "Si. Todos los planes incluyen soporte por email. Los planes Pro y Enterprise tienen soporte prioritario.",
+          "Sí, a mano con agua fría y jabón suave. Secar al aire, sin retorcer.",
       },
     ],
   },
@@ -152,29 +140,25 @@ export const siteConfig = {
   // SECCION DE CONTACTO
   // ─────────────────────────────────────────────
   contact: {
-    heading: "Contactanos",
+    heading: "¿Tienes una idea? Tejámosla.",
     subheading:
-      "Envianos un mensaje y te responderemos lo antes posible.",
-    // URL para agendar una cita (Calendly o Google Calendar)
-    // Si no tienes, deja el valor vacio: ""
+      "Cuéntame qué imaginas: un personaje, una mascota, un regalo especial... Te respondo con un boceto y presupuesto.",
     schedulingUrl: "",
-    schedulingCta: "Agendar una llamada",
+    schedulingCta: "",
     form: {
       namePlaceholder: "Tu nombre",
       emailPlaceholder: "tu@email.com",
-      // Telefono es opcional. Cambia phoneRequired a true si quieres hacerlo obligatorio.
-      phonePlaceholder: "Tu numero de telefono (opcional)",
+      phonePlaceholder: "Tu número de teléfono (opcional)",
       phoneRequired: false,
-      messagePlaceholder: "Escribe tu mensaje aqui...",
+      messagePlaceholder: "Escribe tu idea aquí...",
       submitButton: "Enviar mensaje",
       sendingButton: "Enviando...",
       successMessage:
-        "Mensaje enviado correctamente. Revisa tu email.",
+        "Mensaje enviado correctamente. ¡Pronto te responderé!",
       errorMessage:
-        "Hubo un error al enviar. Intentalo de nuevo.",
+        "Hubo un error al enviar. Inténtalo de nuevo.",
     },
-    // Datos de contacto opcionales para mostrar en el footer o sidebar
-    email: "hola@vibecoding.com",
+    email: "hola@madejadulce.com",
     phone: "",
     address: "",
   },
@@ -184,11 +168,11 @@ export const siteConfig = {
   // ─────────────────────────────────────────────
   nav: {
     links: [
-      { label: "Inicio", href: "#inicio" },
-      { label: "Features", href: "#features" },
-      { label: "Precios", href: "#precios" },
-      { label: "FAQ", href: "#faq" },
-      { label: "Contacto", href: "#contacto" },
+      { label: "Inicio", href: "#hero" },
+      { label: "Detalles", href: "#features" },
+      { label: "Precios", href: "#pricing" },
+      { label: "Sobre mí", href: "#faq" },
+      { label: "Contacto", href: "#contact" },
     ],
   },
 
@@ -196,60 +180,52 @@ export const siteConfig = {
   // FOOTER
   // ─────────────────────────────────────────────
   footer: {
-    tagline: "Hecho con Next.js y mucho cafe.",
+    tagline: "Pequeños amigos, grandes abrazos.",
     links: [
-      { label: "Inicio", href: "#inicio" },
-      { label: "Features", href: "#features" },
-      { label: "Precios", href: "#precios" },
-      { label: "Contacto", href: "#contacto" },
+      { label: "Inicio", href: "#hero" },
+      { label: "Detalles", href: "#features" },
+      { label: "Precios", href: "#pricing" },
+      { label: "Contacto", href: "#contact" },
     ],
-    copyright: "Todos los derechos reservados.",
+    copyright: "Todos los derechos reservados. Madeja Dulce.",
   },
 
   // ─────────────────────────────────────────────
-  // EMAIL (notificaciones automaticas al recibir un contacto)
+  // EMAIL
   // ─────────────────────────────────────────────
   email: {
-    subject: "Recibimos tu mensaje",
-    teamSignature: "El equipo de VibeCoding",
-    // El remitente del email. Debe coincidir con tu dominio verificado en Resend.
+    subject: "Nuevo encargo Madeja Dulce",
+    teamSignature: "Madeja Dulce",
     from: "onboarding@resend.dev",
   },
 
   // ─────────────────────────────────────────────
-  // COLORES PRINCIPALES (referencia para personalizar globals.css)
+  // COLORES PRINCIPALES
   // ─────────────────────────────────────────────
-  // Estos valores son documentacion. Para cambiar colores en Tailwind v4,
-  // edita el archivo src/app/globals.css y modifica las variables CSS.
   colors: {
-    primary: "indigo-600",    // Color principal (botones, acentos)
-    secondary: "gray-900",    // Color de textos principales
-    accent: "indigo-50",      // Fondos suaves y badges
-    background: "white",      // Fondo general
+    primary: "indigo-600",
+    secondary: "gray-900",
+    accent: "indigo-50",
+    background: "white",
   },
 
   // ─────────────────────────────────────────────
   // BOTON DE PAGO (PayPal)
   // ─────────────────────────────────────────────
   payment: {
-    // Cambia enabled a true cuando tengas tu cuenta de PayPal lista
-    enabled: false,
-    // Tu nombre de usuario de PayPal.me
-    // Para obtenerlo: ve a paypal.com > Perfil > Configura tu link PayPal.me
-    // Ejemplo: si tu link es paypal.me/juanperez, escribe "juanperez"
-    paypalMeUsername: "",
-    // Monto sugerido en dolares. Pon 0 para que el comprador elija cuanto pagar.
+    enabled: true,
+    paypalMeUsername: "sophieHolmoc",
     defaultAmount: 0,
     currency: "USD",
     buttonText: "Pagar con PayPal",
   },
 
   // ─────────────────────────────────────────────
-  // METADATOS SEO (lo que aparece en Google y redes sociales)
+  // METADATOS SEO
   // ─────────────────────────────────────────────
   metadata: {
-    title: "VibeCoding - Tu plantilla para lanzar rapido",
+    title: "Madeja Dulce - Amigurumis tejidos a mano",
     description:
-      "La plantilla perfecta para lanzar tu idea al mundo. Rapido, moderno y listo para personalizar.",
+      "Pequeños amigos tejidos con el corazón. En Madeja Dulce nacen amigurumis únicos que abrazan fuerte y se quedan para siempre.",
   },
 };

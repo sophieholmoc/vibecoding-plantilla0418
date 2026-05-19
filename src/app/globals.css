@@ -1,5 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-geist-sans);
+  --font-sans: "Outfit", var(--font-geist-sans), sans-serif;
+  --font-dancing: "Dancing Script", cursive;
+  
+  --color-indigo-50: #FCEAE8;
+  --color-indigo-100: #FAD1D1;
+  --color-indigo-200: #F4A3A3;
+  --color-indigo-600: #B83232;
+  --color-indigo-700: #9A2828;
+  
+  --color-fuchsia-500: #B83232;
+  --color-fuchsia-600: #2C1A12;
+  
+  --color-gray-50: #F5F0E6;
+  --color-gray-100: #EBE3D5;
+  --color-gray-200: #EBE3D5;
+  --color-gray-300: #C2B3A6;
+  --color-gray-500: #7A6357;
+  --color-gray-600: #5C4A41;
+  --color-gray-700: #4A3A33;
+  --color-gray-900: #2C1A12;
+
+  --color-white: #FFFAED;
+}
+
+@layer base {
+  body {
+    background-color: #F5F0E6;
+    color: #5C4A41;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Fraunces", serif;
+  }
+  
+  /* Stylized cursive font for the main hero title */
+  #hero h1, #hero h1 span {
+    font-family: "Dancing Script", cursive !important;
+    font-weight: 700 !important;
+  }
+
+  /* Override colors for the FAQ section to match the red banner in the design */
+  #faq {
+    background-color: #B83232 !important;
+  }
+  #faq h2, #faq p, #faq span {
+    color: #FFFAED !important;
+  }
+  #faq svg {
+    color: #FFFAED !important;
+  }
+  #faq .border-gray-200, #faq .border-b {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  /* Background images for sections */
+  #hero {
+    background-image: linear-gradient(rgba(245, 240, 230, 0.85), rgba(245, 240, 230, 0.95)), url('/amigu%201.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  #pricing {
+    background-image: linear-gradient(rgba(245, 240, 230, 0.9), rgba(245, 240, 230, 0.9)), url('/amigu%202.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  #contact {
+    background-image: linear-gradient(rgba(245, 240, 230, 0.85), rgba(245, 240, 230, 0.95)), url('/amigu%203.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
 }
