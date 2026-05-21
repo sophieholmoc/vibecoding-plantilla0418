@@ -26,8 +26,22 @@ export const siteConfig = {
       "En Madeja Dulce nacen amigurumis únicos: animalitos, personajes o compañeros de lana que abrazan fuerte y se quedan para siempre.",
     ctaPrimary: "Ver la galería",
     ctaSecondary: "Hacer un encargo",
-    ctaPrimaryUrl: "#features",
-    ctaSecondaryUrl: "#contact",
+    ctaPrimaryUrl: "#gallery",
+    ctaSecondaryUrl: "#pricing",
+  },
+
+  // ─────────────────────────────────────────────
+  // GALERIA
+  // ─────────────────────────────────────────────
+  gallery: {
+    heading: "Nuestros amigurumis",
+    subheading: "Un pequeño vistazo a nuestros amigos tejidos.",
+    images: [
+      { src: "/amigu 1.jpeg", alt: "Amigurumi 1" },
+      { src: "/amigu 2.jpeg", alt: "Amigurumi 2" },
+      { src: "/amigu 3.jpeg", alt: "Amigurumi 3" },
+      { src: "/amigu 4.jpeg", alt: "Amigurumi 4" },
+    ],
   },
 
   // ─────────────────────────────────────────────
